@@ -1,0 +1,47 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: rgb(231, 230, 245);
+}
+
+a {
+    text-decoration: none;
+}
+
+.container {
+    width: 80%;
+    margin: auto;
+}
+
+/* Header | Navigation */
+
+header {
+    display: flex;
+    width: 100vw;
+    background: rgb(25, 25, 25);
+    min-height: 5vh;
+}
+
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.navContainer {
+    display: flex;
+    font-size: 15px;
+    list-style: none;
+}
+
+.navLink {
+    color: white;
+    line-height: 1.5em;
+    margin-left: 2.5em;
+}
+
+/* Section 1 */
