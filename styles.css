@@ -12,9 +12,33 @@ a {
     text-decoration: none;
 }
 
-.container {
-    width: 80%;
-    margin: auto;
+@media (min-width: 769px) { /* Bigger Screen */
+    .container {
+        width: 80%;
+        margin: auto;
+    }
+    .navLink {
+        margin-left: 2.5em;
+    }
+}
+
+@media (max-width: 768px) { /* Smaller Screen */
+    .gg-camera {
+        margin: 2em;
+        transform: scale(var(--ggs,1.5));
+    }
+    nav {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+    }
+    .navContainer {
+        flex-direction: column;
+    }
+    .navLink {
+        display: flex;
+        justify-content: center;
+    }
 }
 
 /* Header | Navigation */
@@ -41,7 +65,7 @@ nav {
 .navLink {
     color: white;
     line-height: 1.5em;
-    margin-left: 2.5em;
+    font-size: 1.1em;
 }
 
 /* Section 1 */
