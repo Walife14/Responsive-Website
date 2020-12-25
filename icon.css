@@ -37,3 +37,24 @@
     right: 2px;
     border-top-right-radius: 2px
 }
+
+/* Hamburger Icon */
+.hamburger {
+    display: none;
+    max-width: 40px;
+    margin: 0 1em;
+}
+
+.hamburgerSlab {
+    display: flex;
+    justify-content: center;
+    height: 7.5px;
+    width: 40px;
+    border-radius: 10%;
+    margin: 5px 0;
+    background: rgb(255, 255, 255);
+}
+
+.hamburger:hover {
+    cursor: pointer;
+}
