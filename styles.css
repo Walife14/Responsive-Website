@@ -6,6 +6,7 @@
 
 body {
     background: rgb(231, 230, 245);
+    min-width: 375px;
 }
 
 a {
@@ -23,6 +24,7 @@ header {
     width: 100vw;
     background: rgb(25, 25, 25);
     min-height: 5vh;
+    max-width: 100%;
 }
 
 nav {
@@ -42,6 +44,51 @@ nav {
     color: white;
     line-height: 1.5em;
     font-size: 1.1em;
+}
+
+/* Index | Slideshow */
+
+#theContainer {
+    display: flex;
+    min-height: 95vh;
+}
+
+#leftSide {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 33%;
+}
+
+#leftSide h1 {
+    font-size: 3em;
+}
+
+#leftSide span {
+    text-align: center;
+}
+
+#viewPhotosBtn {
+    background: white;
+    padding: 0.5em;
+    border: 1px solid black;
+    margin-top: 2em;
+}
+
+
+#rightSide {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 66%;
+}
+
+#rightSide img {
+    width: 80%;
+    max-width: 540px;
+    border-radius: .5em;
+    box-shadow: 10px 10px 5px grey;
 }
 
 /* Section 1 */
